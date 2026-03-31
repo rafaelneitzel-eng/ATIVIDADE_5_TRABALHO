@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial,sans-serif;
+    background: #eeeeee;
+}
+
+main{
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+label,input,select,textarea,button{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button{
+    margin-top: 15px;
+}
+
+#mensagem{
+    color: red;
+    margin-top: 10px;
+}
+#validacao{
+    color: rgb(62, 92, 18);
+    margin-top: 10px;
+}
